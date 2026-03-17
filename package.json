@@ -1,8 +1,16 @@
 {
-  "name": "sds",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@rgr/design-system",
+  "version": "0.0.1",
+  "description": "RGR Design System - Component library and design tokens",
+  "private": false,
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rongjohnsilvers/rgr-design-system"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "app:dev": "vite",
     "app:build": "tsc && vite build",
